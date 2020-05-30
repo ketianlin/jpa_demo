@@ -25,4 +25,9 @@ public class JpaTest {
     public void test(){
         System.out.println(34);
     }
+
+    @Test
+    public void test2(){
+        System.out.println(12);
+    }
 }
