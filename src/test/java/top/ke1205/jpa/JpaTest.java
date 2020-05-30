@@ -20,4 +20,9 @@ public class JpaTest {
         tx.commit();
         em.close();
     }
+
+    @Test
+    public void test(){
+        System.out.println(34);
+    }
 }
